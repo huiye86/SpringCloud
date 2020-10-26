@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface ItemService {
     List<Item> getItems(String orderId);
-    void decreaseNumbers(List<Item> itemList);
+    void decreaseNumbers(List<Item> list);
 }
