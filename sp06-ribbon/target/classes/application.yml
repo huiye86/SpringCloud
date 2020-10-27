@@ -24,3 +24,10 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 500
+
+#hystrix.stream 监控端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" #暴露所有端点 #hystrix.stream

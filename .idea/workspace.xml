@@ -2,24 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835faea5-7f8d-4452-ac87-09e4d6b58f6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/src/main/java/cn/tedu/sp07/Sp07HystrixDashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sp07-hystrix-dashboard/src/test/java/cn/tedu/sp07/Sp07HystrixDashboardApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-itemservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/sp02-itemservice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/src/main/java/cn/tedu/sp02/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-itemservice/src/main/java/cn/tedu/sp02/item/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/src/main/java/cn/tedu/sp02/item/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-itemservice/src/main/java/cn/tedu/sp02/item/service/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-itemservice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/src/test/java/cn/tedu/Sp02ItemserviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp02-itemservice/src/test/java/cn/tedu/sp02/Sp02ItemserviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/target/classes/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/target/classes/META-INF/sp02-itemservice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/target/classes/cn/tedu/sp02/Sp02ItemserviceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/target/classes/cn/tedu/sp02/item/controller/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/target/classes/cn/tedu/sp02/item/service/ItemServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp02-itemservice/target/test-classes/cn/tedu/Sp02ItemserviceApplicationTests.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sp06-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp06-ribbon/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp06-ribbon/sp06-ribbon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sp06-ribbon/sp06-ribbon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp06-ribbon/src/main/java/cn/tedu/sp06/Sp06RibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp06-ribbon/src/main/java/cn/tedu/sp06/Sp06RibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp06-ribbon/src/main/java/cn/tedu/sp06/controller/RibbonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp06-ribbon/src/main/java/cn/tedu/sp06/controller/RibbonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp06-ribbon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp06-ribbon/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp06-ribbon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp06-ribbon/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp06-ribbon/target/classes/cn/tedu/sp06/Sp06RibbonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/sp06-ribbon/target/classes/cn/tedu/sp06/Sp06RibbonApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp06-ribbon/target/classes/cn/tedu/sp06/controller/RibbonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sp06-ribbon/target/classes/cn/tedu/sp06/controller/RibbonController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +105,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -94,12 +125,15 @@
     <selection>jxr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\Idea_save\fifth\SpringCloud\springcloud1\sp02-itemservice\src\main\java\cn\tedu\sp02" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\java\Idea_save\fifth\SpringCloud\springcloud1" />
       <recent name="E:\java\Idea_save\fifth\SpringCloud\springcloud1\sp05-eureka\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Sp06RibbonApplication">
+  <component name="RunManager" selected="Spring Boot.Sp07HystrixDashboardApplication">
     <configuration name="Sp02Item-8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="sp02-itemservice" />
       <extension name="coverage">
@@ -187,6 +221,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sp07HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp07-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.sp07.Sp07HystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sp09FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sp09-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.sp09.Sp09FeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.Sp02Item-8001" />
       <item itemvalue="Spring Boot.Sp02Item-8002" />
@@ -195,6 +243,8 @@
       <item itemvalue="Spring Boot.Sp05Eureka-2001" />
       <item itemvalue="Spring Boot.Sp05Eureka-2002" />
       <item itemvalue="Spring Boot.Sp06RibbonApplication" />
+      <item itemvalue="Spring Boot.Sp07HystrixDashboardApplication" />
+      <item itemvalue="Spring Boot.Sp09FeignApplication" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -231,7 +281,7 @@
       <workItem from="1603703174280" duration="376000" />
       <workItem from="1603703600187" duration="3411000" />
       <workItem from="1603760337534" duration="2166000" />
-      <workItem from="1603762582132" duration="2602000" />
+      <workItem from="1603762582132" duration="13478000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud1.iml">
       <created>1603504996315</created>
@@ -303,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603706472787</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="springcloud1.iml">
+      <created>1603766096502</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603766096502</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,18 +379,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1009" y="181" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1603687370363" />
-    <state x="1009" y="181" key="#Project_Structure" timestamp="1603685957294">
+    <state x="1009" y="181" key="#Project_Structure" timestamp="1603780019065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603685957294" />
-    <state x="17" y="11" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603764138633">
+    <state x="1009" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603780019065" />
+    <state x="17" y="11" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603767183708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="17" y="11" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603764138633" />
-    <state x="1274" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1603439762891">
+    <state x="17" y="11" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603767183708" />
+    <state x="1274" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1603772341451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1274" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603439762891" />
+    <state x="1274" y="218" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603772341451" />
     <state x="1103" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603436058853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,10 +399,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="503" y="451" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603761852341" />
-    <state x="425" y="110" key="CommitChangelistDialog2" timestamp="1603706467187">
+    <state x="425" y="110" key="CommitChangelistDialog2" timestamp="1603766092361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="425" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603706467187" />
+    <state x="425" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603766092361" />
     <state x="184" y="85" key="DiffContextDialog" timestamp="1603687179959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -366,50 +423,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603504671186" />
-    <state width="1494" height="581" key="GridCell.Tab.0.bottom" timestamp="1603763552335">
+    <state width="922" height="345" key="GridCell.Tab.0.bottom" timestamp="1603778760549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="581" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603763552335" />
-    <state width="1494" height="581" key="GridCell.Tab.0.center" timestamp="1603763552335">
+    <state width="922" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603778760549" />
+    <state width="922" height="345" key="GridCell.Tab.0.center" timestamp="1603778760549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="581" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603763552335" />
-    <state width="1494" height="581" key="GridCell.Tab.0.left" timestamp="1603763552335">
+    <state width="922" height="345" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603778760549" />
+    <state width="922" height="345" key="GridCell.Tab.0.left" timestamp="1603778760549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="581" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603763552335" />
-    <state width="1494" height="581" key="GridCell.Tab.0.right" timestamp="1603763552335">
+    <state width="922" height="345" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603778760549" />
+    <state width="922" height="345" key="GridCell.Tab.0.right" timestamp="1603778760549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="581" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603763552335" />
-    <state width="1494" height="581" key="GridCell.Tab.1.bottom" timestamp="1603763552336">
+    <state width="922" height="345" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603778760549" />
+    <state width="922" height="345" key="GridCell.Tab.1.bottom" timestamp="1603778760549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="581" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603763552336" />
-    <state width="1494" height="581" key="GridCell.Tab.1.center" timestamp="1603763552335">
+    <state width="922" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603778760549" />
+    <state width="922" height="345" key="GridCell.Tab.1.center" timestamp="1603778760549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="581" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603763552335" />
-    <state width="1494" height="581" key="GridCell.Tab.1.left" timestamp="1603763552335">
+    <state width="922" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603778760549" />
+    <state width="922" height="345" key="GridCell.Tab.1.left" timestamp="1603778760549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="581" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603763552335" />
-    <state width="1494" height="581" key="GridCell.Tab.1.right" timestamp="1603763552336">
+    <state width="922" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603778760549" />
+    <state width="922" height="345" key="GridCell.Tab.1.right" timestamp="1603778760549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1494" height="581" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603763552336" />
-    <state x="947" y="178" key="Maven.ArtifactSearchDialog" timestamp="1603762358099">
+    <state width="922" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603778760549" />
+    <state x="947" y="178" key="Maven.ArtifactSearchDialog" timestamp="1603766181722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="947" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603762358099" />
+    <state x="947" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603766181722" />
     <state x="14" y="125" key="SettingsEditor" timestamp="1603763941045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="14" y="125" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603763941045" />
-    <state x="913" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603706803259">
+    <state x="913" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603766120404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="913" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603706803259" />
+    <state x="913" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603766120404" />
     <state x="1010" y="100" width="814" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603692146391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -418,18 +475,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1010" y="100" width="814" height="847" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603692085529" />
-    <state x="1209" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603684048498">
+    <state x="1209" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603781054000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1209" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603684048498" />
+    <state x="1209" y="440" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603781054000" />
+    <state x="1110" y="258" width="647" height="524" key="find.popup" timestamp="1603767252942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1110" y="258" width="647" height="524" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603767252942" />
+    <state x="672" y="310" key="git4idea.merge.GitPullDialog" timestamp="1603770466261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603770466261" />
     <state x="1192" y="431" key="git4idea.rebase.GitRebaseDialog" timestamp="1603687477323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1192" y="431" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603687477323" />
-    <state x="516" y="442" key="new project wizard" timestamp="1603761675543">
+    <state x="328" y="248" width="722" height="599" key="new project wizard" timestamp="1603780770025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="516" y="442" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603761675543" />
+    <state x="328" y="248" width="722" height="599" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603780770025" />
     <state x="1046" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1603698393286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

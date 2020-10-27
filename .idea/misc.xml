@@ -7,11 +7,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/sp01-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/sp02-itemservice/pom.xml" />
         <option value="$PROJECT_DIR$/sp03-userservice/pom.xml" />
         <option value="$PROJECT_DIR$/sp04-orderservice/pom.xml" />
         <option value="$PROJECT_DIR$/sp05-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/sp06-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/sp02-itemservice/pom.xml" />
+        <option value="$PROJECT_DIR$/sp07-hystrix-dashboard/pom.xml" />
       </list>
     </option>
   </component>
