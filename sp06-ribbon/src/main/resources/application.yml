@@ -15,3 +15,12 @@ ribbon:
   MaxAutoRetriesNextServer: 2 #更换服务器的次数
   MaxAutoRetries: 1 #单台服务器的重试次数
   OkToRetryOnAllOperations: true #是否对所有类型请求都进行重试，默认只对get重试，一般不用配置
+
+#重试超时时长，要将hystrix超时>=Ribbon总的超时时长，hystrix的默认时长为1秒
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 500
