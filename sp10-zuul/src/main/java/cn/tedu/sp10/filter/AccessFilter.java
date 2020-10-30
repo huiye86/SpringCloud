@@ -1,10 +1,14 @@
 package cn.tedu.sp10.filter;
 
+import cn.tedu.web.util.JsonResult;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.cloud.netflix.zuul.filters.support.FilterConstants;
 import org.springframework.stereotype.Component;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author wxh
@@ -41,6 +45,25 @@ public class AccessFilter extends ZuulFilter {
     //过滤方法，权限判断写在这里
     @Override
     public Object run() throws ZuulException {
-        return null;
+        //http://localhost:3001/item-service/y4y433  没有登陆不允许访问
+        //http://localhost:3001/item-service/y4y433？token=78oi6i544 有token认为已登陆，可以访问
+
+        //获取request
+        RequestContext ctx=RequestContext.getCurrentContext();
+        HttpServletRequest request=ctx.getRequest();
+
+        //用request接收token参数
+        String token = request.getParameter("token");
+
+        //如果token参数为空，阻止继续访问,返回登陆提示
+        if(StringUtils.isBlank(token)){
+            //阻止继续访问
+            ctx.setSendZuulResponse(false);
+            //JsonResult-->"{code:400,msg:not log in,data:null}"
+            String json = JsonResult.err().code(JsonResult.NOT_LOGIN).msg("Not log in").toString();
+            ctx.setResponseStatusCode(JsonResult.NOT_LOGIN);
+            ctx.setResponseBody(json);
+        }
+        return null;//当前zuul版本中,无任何作用
     }
 }
