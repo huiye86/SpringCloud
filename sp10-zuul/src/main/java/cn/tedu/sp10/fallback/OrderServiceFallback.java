@@ -1,8 +1,9 @@
 package cn.tedu.sp10.fallback;
 
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
-import cn.tedu.web.util.JsonResult;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -10,23 +11,22 @@ import org.springframework.http.MediaType;
 import org.springframework.http.client.ClientHttpResponse;
 import org.springframework.stereotype.Component;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import cn.tedu.web.util.JsonResult;
+
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author wxh
- * @date 2020/10/30 11:39
+ * @date 2020/10/30 15:23
  * @description
  */
 @Slf4j
 @Component
-public class ItemServiceFallback implements FallbackProvider {
+public class OrderServiceFallback implements FallbackProvider {
+
     @Override
     public String getRoute() {
-        return "item-service";
-        //return "*";//针对所有服务都应当调用当前降级
-        //return null;
+        return "order-service"; //"*"; //null;
     }
 
     @Override
@@ -34,18 +34,16 @@ public class ItemServiceFallback implements FallbackProvider {
         return response();
     }
 
-    private ClientHttpResponse response(){
+    private ClientHttpResponse response() {
         return new ClientHttpResponse() {
             @Override
             public HttpStatus getStatusCode() throws IOException {
                 return HttpStatus.OK;
             }
-
             @Override
             public int getRawStatusCode() throws IOException {
                 return HttpStatus.OK.value();
             }
-
             @Override
             public String getStatusText() throws IOException {
                 return HttpStatus.OK.getReasonPhrase();
@@ -58,15 +56,15 @@ public class ItemServiceFallback implements FallbackProvider {
             @Override
             public InputStream getBody() throws IOException {
                 log.info("fallback body");
-                String s= JsonResult.err().msg("后台服务错误").toString();
-                return new ByteArrayInputStream(s.getBytes("utf-8"));
+                String s = JsonResult.err().msg("后台服务错误").toString();
+                return new ByteArrayInputStream(s.getBytes("UTF-8"));
             }
 
             @Override
             public HttpHeaders getHeaders() {
-                HttpHeaders httpHeaders=new HttpHeaders();
-                httpHeaders.setContentType(MediaType.APPLICATION_JSON);
-                return httpHeaders;
+                HttpHeaders headers = new HttpHeaders();
+                headers.setContentType(MediaType.APPLICATION_JSON);
+                return headers;
             }
         };
     }

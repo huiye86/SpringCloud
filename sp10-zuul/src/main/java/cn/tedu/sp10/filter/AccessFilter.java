@@ -27,7 +27,10 @@ public class AccessFilter extends ZuulFilter {
     //当前过滤器添加到哪个位置，返回一个顺序号
     @Override
     public int filterOrder() {
-        //默认存在5个过滤器
+        /**
+         * 前置过滤器中已经存在5个默认的过滤器，
+         * 在第5个过滤器中，向上下午文对象添加了"service-id"属性
+         * */
         return 6;
     }
 
@@ -46,7 +49,7 @@ public class AccessFilter extends ZuulFilter {
     @Override
     public Object run() throws ZuulException {
         //http://localhost:3001/item-service/y4y433  没有登陆不允许访问
-        //http://localhost:3001/item-service/y4y433？token=78oi6i544 有token认为已登陆，可以访问
+        //http://localhost:3001/item-service/y4y433?token=78oi6i544 有token认为已登陆，可以访问
 
         //获取request
         RequestContext ctx=RequestContext.getCurrentContext();
@@ -60,8 +63,13 @@ public class AccessFilter extends ZuulFilter {
             //阻止继续访问
             ctx.setSendZuulResponse(false);
             //JsonResult-->"{code:400,msg:not log in,data:null}"
-            String json = JsonResult.err().code(JsonResult.NOT_LOGIN).msg("Not log in").toString();
+            String json = JsonResult.err()
+                    .code(JsonResult.NOT_LOGIN)
+                    .msg("Not login")
+                    .toString();
             ctx.setResponseStatusCode(JsonResult.NOT_LOGIN);
+            //加上后返回信息可以有中文
+            //ctx.addZuulResponseHeader("Content-Type", "application/json;charset=utf-8");
             ctx.setResponseBody(json);
         }
         return null;//当前zuul版本中,无任何作用

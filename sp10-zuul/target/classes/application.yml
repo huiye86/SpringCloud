@@ -17,9 +17,24 @@ zuul:
     item-service: /item-service/**
     user-service: /user-service/**
     order-service: /order-service/**
+  retryable: true
 
 ribbon:
   ConnectTimeout: 1000
-  ReadTimeout: 1000
+  ReadTimeout: 2000
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecends:  500
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

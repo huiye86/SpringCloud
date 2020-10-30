@@ -40,7 +40,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
+		<!--zuul开启重试-->
 		<dependency>
 			<groupId>org.springframework.retry</groupId>
 			<artifactId>spring-retry</artifactId>
