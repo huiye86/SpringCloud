@@ -2,52 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835faea5-7f8d-4452-ac87-09e4d6b58f6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/java/cn/tedu/sp04/service/ItemFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/java/cn/tedu/sp04/service/ItemFeignServiceFB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/java/cn/tedu/sp04/service/UserFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/java/cn/tedu/sp04/service/UserFeignServiceFB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/java/cn/tedu/sp08/Sp08FeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/java/cn/tedu/sp08/controller/FeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/java/cn/tedu/sp08/service/ItemFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/java/cn/tedu/sp08/service/ItemFeignSeviceFB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/java/cn/tedu/sp08/service/OrderFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/java/cn/tedu/sp08/service/OrderFeignServiceFB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/java/cn/tedu/sp08/service/UserFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/java/cn/tedu/sp08/service/UserFeignServiceFB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sp08-feign/src/test/java/cn/tedu/sp08/Sp08FeignApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp04-orderservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp04-orderservice/sp04-orderservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/sp04-orderservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp04-orderservice/src/main/java/cn/tedu/sp04/Sp04OrderserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/java/cn/tedu/sp04/Sp04OrderserviceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp04-orderservice/src/main/java/cn/tedu/sp04/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/java/cn/tedu/sp04/service/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp04-orderservice/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp04-orderservice/target/classes/cn/tedu/sp04/Sp04OrderserviceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/target/classes/cn/tedu/sp04/Sp04OrderserviceApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sp04-orderservice/target/classes/cn/tedu/sp04/service/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sp04-orderservice/target/classes/cn/tedu/sp04/service/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp06-ribbon/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sp06-ribbon/target/test-classes/cn/tedu/sp06/Sp06RibbonApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sp08-feign/sp08-feign.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +77,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="settings.gitee" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
@@ -239,7 +199,7 @@
       </method>
     </configuration>
     <configuration name="Sp08FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sp08-feign" />
+      <module name="sp08-feign演示代码" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.sp08.Sp08FeignApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,7 +253,8 @@
       <workItem from="1603703600187" duration="3411000" />
       <workItem from="1603760337534" duration="2166000" />
       <workItem from="1603762582132" duration="13649000" />
-      <workItem from="1603848702173" duration="10263000" />
+      <workItem from="1603848702173" duration="14326000" />
+      <workItem from="1604019412199" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud1.iml">
       <created>1603504996315</created>
@@ -379,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603790490150</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="springcloud6.iml">
+      <created>1603868248644</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603868248644</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +360,8 @@
     </ignored-roots>
     <MESSAGE value="springcloud1.iml" />
     <MESSAGE value="springcloud5.iml" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud5.iml" />
+    <MESSAGE value="springcloud6.iml" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud6.iml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1009" y="181" key="#Notifications" timestamp="1603687370363">
@@ -419,18 +388,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="503" y="451" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603761852341" />
-    <state x="425" y="110" key="CommitChangelistDialog2" timestamp="1603790484162">
+    <state x="425" y="110" key="CommitChangelistDialog2" timestamp="1604020175103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="425" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603790484162" />
+    <state x="425" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604020175103" />
     <state x="184" y="85" key="DiffContextDialog" timestamp="1603687179959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603687179959" />
-    <state x="1022" y="335" key="FileChooserDialogImpl" timestamp="1603866919151">
+    <state x="1022" y="335" key="FileChooserDialogImpl" timestamp="1604020149563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1022" y="335" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603866919151" />
+    <state x="1022" y="335" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604020149563" />
     <state x="1175" y="466" key="Gitee.ShareDialog" timestamp="1603687601035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -443,50 +412,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603504671186" />
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1603867966201">
+    <state width="922" height="308" key="GridCell.Tab.0.bottom" timestamp="1603876276498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603867966201" />
-    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1603867966201">
+    <state width="922" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603876276498" />
+    <state width="922" height="308" key="GridCell.Tab.0.center" timestamp="1603876276498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603867966201" />
-    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1603867966201">
+    <state width="922" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603876276498" />
+    <state width="922" height="308" key="GridCell.Tab.0.left" timestamp="1603876276498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603867966201" />
-    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1603867966201">
+    <state width="922" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603876276498" />
+    <state width="922" height="308" key="GridCell.Tab.0.right" timestamp="1603876276498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603867966201" />
-    <state width="1877" height="308" key="GridCell.Tab.1.bottom" timestamp="1603867966201">
+    <state width="922" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603876276498" />
+    <state width="922" height="308" key="GridCell.Tab.1.bottom" timestamp="1603876276498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603867966201" />
-    <state width="1877" height="308" key="GridCell.Tab.1.center" timestamp="1603867966201">
+    <state width="922" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603876276498" />
+    <state width="922" height="308" key="GridCell.Tab.1.center" timestamp="1603876276498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603867966201" />
-    <state width="1877" height="308" key="GridCell.Tab.1.left" timestamp="1603867966201">
+    <state width="922" height="308" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603876276498" />
+    <state width="922" height="308" key="GridCell.Tab.1.left" timestamp="1603876276498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603867966201" />
-    <state width="1877" height="308" key="GridCell.Tab.1.right" timestamp="1603867966201">
+    <state width="922" height="308" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603876276498" />
+    <state width="922" height="308" key="GridCell.Tab.1.right" timestamp="1603876276498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603867966201" />
+    <state width="922" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603876276498" />
     <state x="947" y="178" key="Maven.ArtifactSearchDialog" timestamp="1603766181722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="947" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603766181722" />
-    <state x="854" y="219" key="SettingsEditor" timestamp="1603866925743">
+    <state x="854" y="219" key="SettingsEditor" timestamp="1604019582538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="854" y="219" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603866925743" />
-    <state x="913" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603790503068">
+    <state x="854" y="219" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604019582538" />
+    <state x="913" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604019468834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="913" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603790503068" />
+    <state x="913" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604019468834" />
     <state x="1010" y="100" width="814" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603692146391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

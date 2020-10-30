@@ -38,7 +38,9 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public void addOrder(Order order) {
+        //减少库存
         itemFeignService.decreaseNumber(order.getItems());
+        //增加用户积分
         userFeignService.addScore(7, 100);
 
         log.info("保存订单信息"+order);
