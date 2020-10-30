@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 //@EnableCircuitBreaker
 //@SpringBootApplication
 @EnableFeignClients
-//@EnableDiscoveryClient  //新版本可以不加
+//@EnableDiscoveryClient
 @SpringCloudApplication
 public class Sp08FeignApplication {
 
