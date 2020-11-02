@@ -9,9 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/sp05-eureka/sp05-eureka.iml" filepath="$PROJECT_DIR$/sp05-eureka/sp05-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp06-ribbon/sp06-ribbon.iml" filepath="$PROJECT_DIR$/sp06-ribbon/sp06-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp07-hystrix-dashboard/sp07-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/sp07-hystrix-dashboard/sp07-hystrix-dashboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sp08-feign/sp08-feign演示代码.iml" filepath="$PROJECT_DIR$/sp08-feign/sp08-feign演示代码.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp08-feign/sp08-feign.iml" filepath="$PROJECT_DIR$/sp08-feign/sp08-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp09-turbine/sp09-turbine.iml" filepath="$PROJECT_DIR$/sp09-turbine/sp09-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/sp10-zuul/sp10-zuul.iml" filepath="$PROJECT_DIR$/sp10-zuul/sp10-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp11-config/sp11-config.iml" filepath="$PROJECT_DIR$/sp11-config/sp11-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud1.iml" filepath="$PROJECT_DIR$/.idea/springcloud1.iml" />
     </modules>
   </component>

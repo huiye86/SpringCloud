@@ -12,10 +12,11 @@
         <option value="$PROJECT_DIR$/sp05-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/sp02-itemservice/pom.xml" />
         <option value="$PROJECT_DIR$/sp07-hystrix-dashboard/pom.xml" />
-        <option value="$PROJECT_DIR$/sp08-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/sp06-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/sp09-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/sp10-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/sp11-config/pom.xml" />
+        <option value="$PROJECT_DIR$/sp06-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/sp08-feign/pom.xml" />
       </list>
     </option>
   </component>

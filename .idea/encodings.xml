@@ -10,6 +10,7 @@
     <file url="file://$PROJECT_DIR$/sp08-feign/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp09-turbine/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sp10-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sp11-config/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
